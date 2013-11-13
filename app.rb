@@ -4,7 +4,6 @@ require 'bundler/setup'
 require 'sinatra'
 require 'data_mapper'
 require 'json'
-require 'Date'
 require File.dirname(__FILE__) + '/models.rb'
 
 before do
