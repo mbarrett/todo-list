@@ -1,5 +1,5 @@
 #DataMapper::Logger.new($stdout, :debug)
-DataMapper.setup(:default, 'sqlite::memory:')
+ DataMapper.setup(:default, 'postgres://localhost/todo-db')
 
 class Task
 	include DataMapper::Resource
