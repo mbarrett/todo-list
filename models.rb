@@ -1,6 +1,6 @@
 #DataMapper::Logger.new($stdout, :debug)
 #DataMapper.setup(:default, 'postgres://localhost/todo-db')
-DataMapper.setup(:default, 'postgres://grerrjuorqwmxp:5KPVSqD63ZpSQ1fUmalMATbnnY@ec2-23-23-80-55.compute-1.amazonaws.com/d5ndetmmtlm6gv')
+DataMapper.setup(:default, 'postgres://potkcyehhyvape:60qOcGkUUoiinfM2NO49gJoiNO@ec2-54-204-36-244.compute-1.amazonaws.com:5432/d9am60mfei9g48')
 
 class Task
 	include DataMapper::Resource
