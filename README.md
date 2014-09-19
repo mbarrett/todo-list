@@ -1,7 +1,7 @@
 todo-list
 =========
 
-Simple example app that generates a TODO list.
+Single page app that generates a simple TODO list.
 
 Written in <a href="https://www.ruby-lang.org/">Ruby</a> using the <a href="http://www.sinatrarb.com/">Sinatra</a> framework.
 
